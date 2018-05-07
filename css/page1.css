@@ -1,0 +1,23 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+main > div{
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+#img-page01-profile{
+    height: 200px;
+    width: 200px;
+
+    border-radius: 50%;
+}
+
+#info-wrapper{
+    font-size: 2em;
+}
